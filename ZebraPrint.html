@@ -36,6 +36,7 @@
   <textarea id="zpl" style="width:500px" rows = '20'>^XA^PW400^LL200^FO20,20^A0N,30,30^FDThis is a TEST^FS^XZ</textarea><br><br>
   <button onclick="print(); return false;">Print</button> <br>
   <button onclick="test(); return false;">test</button>
+  <p id="demo"></p>
   <div id="output"></div>
   <script>
     function print()
@@ -63,10 +64,11 @@
     }
     function test()
     { 
-    document.getElementById("ip_addr").innerHTML = "Hello JavaScript!";
+    document.getElementById("demo").innerHTML = "onclick script is OK";
 
     }
     
   </script>
+  <noscript>Sorry, your browser does not support JavaScript!</noscript>
 </body>
 </html>
