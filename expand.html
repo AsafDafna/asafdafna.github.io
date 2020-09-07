@@ -13,11 +13,12 @@
     <img src="/images/Dad.jpg" alt="Dov Noy" style="width:528px;height:704px;">
     <button onclick="expand(); return false;">Details</button>
     <p id="details"></p>
+    <p id="details_end"></p>
     <script>
         function expand()
         { 
         document.getElementById("details").innerHTML = "some details <br> blah blah blah <br> more details <br> blah blah blah <br> last one <br> blah blah blah";
-        document.getElementById("details").scrollIntoView();
+        document.getElementById("details_end").scrollIntoView();
         }
         
       </script>
